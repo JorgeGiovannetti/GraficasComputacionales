@@ -2,7 +2,6 @@ const drawKirby = () => {
   const canvas = document.querySelector("#kirby");
   if (!canvas.getContext) return;
 
-
   const ctx = canvas.getContext("2d");
   ctx.fillStyle = "#f0f0f0";
   ctx.fillRect(0, 0, canvas.width, canvas.height);
